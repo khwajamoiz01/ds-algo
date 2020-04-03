@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34995f14-a74f-41ce-a252-a3497f4690ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1S8lRC9J0b7ScbemWFbGbV67fYx" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="geeks.array" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WordBreak">
+    <configuration name="Difference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.array.Difference" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeks.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.string.Sequence" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeks.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Surpassers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.array.Surpassers" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeks.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ternary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.tree.Ternary" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeks.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.dp.WordBreak" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeks.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.Difference" />
+        <item itemvalue="Application.Surpassers" />
+        <item itemvalue="Application.Sequence" />
+        <item itemvalue="Application.Ternary" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34995f14-a74f-41ce-a252-a3497f4690ac" name="Default Changelist" comment="" />
+      <created>1570953092918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570953092918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1585422091426">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585422091426" />
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585852538240">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1585852538240" />
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom" timestamp="1585802347755">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585802347755" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1584817879789" />
+    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585738591890" />
+    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584039865066" />
+    <state width="1398" height="226" key="GridCell.Tab.0.center" timestamp="1585802347752">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585802347752" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1584817879787" />
+    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1585738591867" />
+    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584039865059" />
+    <state width="1398" height="226" key="GridCell.Tab.0.left" timestamp="1585802347750">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585802347750" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1584817879785" />
+    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1585738591866" />
+    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584039865057" />
+    <state width="1398" height="226" key="GridCell.Tab.0.right" timestamp="1585802347754">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585802347754" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1584817879788" />
+    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1585738591884" />
+    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584039865064" />
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom" timestamp="1585802347765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585802347765" />
+    <state width="1398" height="194" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
+    <state width="1398" height="226" key="GridCell.Tab.1.center" timestamp="1585802347761">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585802347761" />
+    <state width="1398" height="194" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
+    <state width="1398" height="226" key="GridCell.Tab.1.left" timestamp="1585802347758">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585802347758" />
+    <state width="1398" height="194" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
+    <state width="1398" height="226" key="GridCell.Tab.1.right" timestamp="1585802347763">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585802347763" />
+    <state width="1398" height="194" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1585746118709">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1585746118709" />
+    <state x="450" y="205" width="540" height="479" key="StructurePopup/0.23.1440.821@0.23.1440.821" timestamp="1585683605087" />
+    <state x="458" y="211" key="extract.method.dialog" timestamp="1584785412516">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="211" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1584785412516" />
+    <state x="383" y="195" width="673" height="477" key="find.popup" timestamp="1585640345833">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="383" y="189" width="673" height="522" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1585483684792" />
+    <state x="383" y="194" width="673" height="472" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1584889566363" />
+    <state x="383" y="195" width="673" height="477" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1585640345833" />
+    <state x="427" y="91" key="refactoring.ChangeSignatureDialog" timestamp="1585738523514">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="427" y="76" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1585420060482" />
+    <state x="427" y="91" key="refactoring.ChangeSignatureDialog/0.23.1440.816@0.23.1440.816" timestamp="1585738523514" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585851059798">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585851059798" />
+    <state x="385" y="202" width="670" height="617" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1585683591964" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/tree/Pruning.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/TwoNonRepeating.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/TwoNonRepeating.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/SubarrayWithGivenSumNegative.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/LargestIsland.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/LargestIsland.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/DigitTwoOccurence.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/DigitTwoOccurence.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/string/FirstLetter.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/Rotate.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graphs/HamiltonianPath.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/Spiral.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/Spiral.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
