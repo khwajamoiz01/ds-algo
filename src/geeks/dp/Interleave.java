@@ -25,7 +25,7 @@ public class Interleave {
     }
 
     boolean isInterLeave(char[] a, int i, char[] b, int j, char[] c, int k, Integer[][][] dp) {
-        if (i == 0 && j == 0 && k >= 0)
+        if (i == 0 && j == 0 && k >= 0)//depends whether additional chars is allowed or not
             return true;
         if (k == 0)
             return false;

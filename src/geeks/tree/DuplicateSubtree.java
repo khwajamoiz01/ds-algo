@@ -21,7 +21,8 @@ public class DuplicateSubtree {
     }
 
     static boolean dupSub;
-    //WRONG see
+
+    //WRONG see geeks as one traversal can lead to multiple tree structures
     static String dupSubUtil(Node root, Set<String> subtrees) {
         if (root == null)
             return "";
@@ -36,4 +37,7 @@ public class DuplicateSubtree {
         return str;
     }
 
+    public static void main(String[] args) {
+        System.out.println(Long.parseLong("101101101101101101101", 2));
+    }
 }
