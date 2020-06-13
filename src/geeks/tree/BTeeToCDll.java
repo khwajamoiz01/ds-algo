@@ -14,10 +14,10 @@ Sol2 - below
  */
 public class BTeeToCDll {
 
-    Node prev = null;
-    Node head = null;
+    BTNode prev = null;
+    BTNode head = null;
 
-    Node bTreeToClist(Node root) {
+    BTNode bTreeToClist(BTNode root) {
         convert(root);
         if (head != null) {
             head.left = prev;
@@ -26,7 +26,7 @@ public class BTeeToCDll {
         return head;
     }
 
-    void convert(Node root) {
+    void convert(BTNode root) {
         if (root == null) {
             return;
         }

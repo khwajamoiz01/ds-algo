@@ -10,13 +10,13 @@ package geeks.tree;
  */
 //https://www.geeksforgeeks.org/number-turns-reach-one-node-binary-tree/
 public class NumberOfTurns {
-    static Node lca(Node root, int a, int b) {
+    static BTNode lca(BTNode root, int a, int b) {
         if (root == null)
             return null;
         if (root.data == a || root.data == b)
             return root;
-        Node l = lca(root.left, a, b);
-        Node r = lca(root.right, a, b);
+        BTNode l = lca(root.left, a, b);
+        BTNode r = lca(root.right, a, b);
         if (l == null)
             return r;
         if (r == null)
@@ -24,8 +24,8 @@ public class NumberOfTurns {
         return root;
     }
 
-    static int NumberOfTurn(Node root, int first, int second) {
-        Node lca = lca(root, first, second);
+    static int NumberOfTurn(BTNode root, int first, int second) {
+        BTNode lca = lca(root, first, second);
         if (lca.data == first) {
             return turns(lca, second, 0);
         }
@@ -37,7 +37,7 @@ public class NumberOfTurns {
         return a + b + 1;
     }
 
-    static int turns(Node a, int b, int d) {
+    static int turns(BTNode a, int b, int d) {
         if (a == null)
             return -1;
         if (a.data == b)

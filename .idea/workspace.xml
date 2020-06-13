@@ -2,25 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34995f14-a74f-41ce-a252-a3497f4690ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codeforces/B1330.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/dp/AsgProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/dp/CuttingBinTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MinCutSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/dp/TSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/OAndX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/heap/MedianOfStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/pattern/matching/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/pattern/matching/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/pattern/matching/ZAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/string/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/MaxSubBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/trie/Boggle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/trie/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/trie/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/codechef/C1349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/InputHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/avl/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/avl/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/btree/BTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/btree/BTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/fenwick/FenwickTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/redblack/RedBlackTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/segment/SegmentTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/suffix/SuffixArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphAL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/IGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/IPrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/KruskalMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/PrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/PrimMSTOptimized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/BellmanFord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/DAGShortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/Dijkstra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/FloydWarshall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/heap/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/linkedlist/DLLNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Bucket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Counting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Insertion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Merge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Quick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Radix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Selection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/stack/Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/DllToBst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BSTFromPreorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BTFromInAndLevelOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BTFromPreAndPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/LargeMaze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/FindTheExtraChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/TopK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/dp/Interleave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/dp/Interleave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/dp/Interleave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/dp/Interleave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/SlidingWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/StockBuySell$Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/StockBuySell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/IMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/IMinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/MinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Flatten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Flatten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/stack/TreeMirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/stack/TreeMirror.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/BTeeToCDll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/BTeeToCDll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/KDistNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/KDistNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/LeafToLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/LeafToLeaf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxDiffAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxDiffAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/NumberOfTurns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/NumberOfTurns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/PairSumBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/PairSumBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Pruning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Pruning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Ternary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Ternary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/ZigZag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/StockBuySell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/dp/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/dp/TSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/heap/IMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/IMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/heap/SmallestRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/SmallestRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/Flatten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/Flatten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/pattern/matching/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/pattern/matching/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/stack/TreeMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/stack/TreeMirror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/BTeeToCDll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BTeeToCDll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/DuplicateSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/DuplicateSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/KDistNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/KDistNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/LeafToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/LeafToLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxDiffAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxDiffAncestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxPathSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxSubBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxSubBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/NumberOfTurns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/NumberOfTurns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/PairSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/PairSumBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Pruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Pruning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Ternary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/ZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/ZigZag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +115,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S8lRC9J0b7ScbemWFbGbV67fYx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -53,20 +130,27 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="geeks.graph.shortest.distance" />
       <recent name="geeks.array" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="geeks.sorting" />
+      <recent name="geeks.graph" />
+      <recent name="geeks.advance.data.structures.suffix" />
+      <recent name="geeks.advance.data.structures.avl" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.OAndX">
-    <configuration name="Boggle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.trie.Boggle" />
+  <component name="RunManager" selected="Application.C1349">
+    <configuration name="BSTFromPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.tree.construction.BSTFromPreorder" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeks.trie.*" />
+          <option name="PATTERN" value="geeks.tree.construction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OAndX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.OAndX" />
+    <configuration name="BTFromInAndLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.tree.construction.BTFromInAndLevelOrder" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeks.*" />
+          <option name="PATTERN" value="geeks.tree.construction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.string.Palindrome" />
+    <configuration name="C1349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codechef.C1349" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeks.string.*" />
+          <option name="PATTERN" value="codechef.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.dp.TSP" />
+    <configuration name="DllToBst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.tree.DllToBst" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeks.dp.*" />
+          <option name="PATTERN" value="geeks.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,8 +197,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.pattern.matching.ZAlgo" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.pattern.matching.KMP" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -126,13 +210,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BSTFromPreorder" />
+      <item itemvalue="Application.BTFromInAndLevelOrder" />
+      <item itemvalue="Application.C1349" />
+      <item itemvalue="Application.DllToBst" />
+      <item itemvalue="Application.KMP" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OAndX" />
-        <item itemvalue="Application.Boggle" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.TSP" />
-        <item itemvalue="Application.ZAlgo" />
+        <item itemvalue="Application.C1349" />
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="Application.BTFromInAndLevelOrder" />
+        <item itemvalue="Application.BSTFromPreorder" />
+        <item itemvalue="Application.DllToBst" />
       </list>
     </recent_temporary>
   </component>
@@ -150,18 +241,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1585422091426">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589397893249">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1585422091426" />
-    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585852538240">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589397893249" />
+    <state x="444" y="293" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1589780387512">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1585852538240" />
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586619888323">
+    <state x="444" y="293" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.900@0.0.1440.900" timestamp="1589780387512" />
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1589436236454">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1586619888323" />
+    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589436236454" />
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588326918493">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1588326918493" />
+    <state x="419" y="203" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1588359189397">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="419" y="203" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1588359189397" />
+    <state x="0" y="0" width="784" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588512503123">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="0" width="784" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1588512503123" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588259894619">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588259894619" />
     <state x="483" y="163" key="#xdebugger.evaluate" timestamp="1585909498347">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -170,98 +277,119 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="412" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1586599613915" />
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom" timestamp="1586681048893">
+    <state width="1398" height="332" key="GridCell.Tab.0.bottom" timestamp="1589518974966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586681048893" />
-    <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1586535378431" />
+    <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589518974966" />
+    <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
+    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587015895796" />
     <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585738591890" />
-    <state width="1398" height="296" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586605158116" />
+    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587021804502" />
     <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584039865066" />
-    <state width="1398" height="272" key="GridCell.Tab.0.center" timestamp="1586681048766">
+    <state width="1398" height="332" key="GridCell.Tab.0.center" timestamp="1589518974964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586681048766" />
-    <state width="1398" height="250" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1586535378429" />
+    <state width="1398" height="332" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589518974964" />
+    <state width="1398" height="332" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588569707794" />
+    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1587015895791" />
     <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1585738591867" />
-    <state width="1398" height="296" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1586605158114" />
+    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587021804496" />
     <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584039865059" />
-    <state width="1398" height="272" key="GridCell.Tab.0.left" timestamp="1586681048757">
+    <state width="1398" height="332" key="GridCell.Tab.0.left" timestamp="1589518974963">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586681048757" />
-    <state width="1398" height="250" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1586535378427" />
+    <state width="1398" height="332" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589518974963" />
+    <state width="1398" height="332" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588569707793" />
+    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1587015895789" />
     <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1585738591866" />
-    <state width="1398" height="296" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1586605158113" />
+    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587021804494" />
     <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584039865057" />
-    <state width="1398" height="272" key="GridCell.Tab.0.right" timestamp="1586681048892">
+    <state width="1398" height="332" key="GridCell.Tab.0.right" timestamp="1589518974965">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586681048892" />
-    <state width="1398" height="250" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1586535378430" />
+    <state width="1398" height="332" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589518974965" />
+    <state width="1398" height="332" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588569707796" />
+    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1587015895793" />
     <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1585738591884" />
-    <state width="1398" height="296" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1586605158115" />
+    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587021804497" />
     <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584039865064" />
-    <state width="1398" height="272" key="GridCell.Tab.1.bottom" timestamp="1586681057051">
+    <state width="1398" height="332" key="GridCell.Tab.1.bottom" timestamp="1589518974970">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586681057051" />
-    <state width="1398" height="250" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1586535378433" />
+    <state width="1398" height="332" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589518974970" />
+    <state width="1398" height="332" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588569707803" />
+    <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587015895805" />
     <state width="1398" height="194" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
     <state width="1398" height="272" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586605111078" />
-    <state width="1398" height="272" key="GridCell.Tab.1.center" timestamp="1586681057049">
+    <state width="1398" height="332" key="GridCell.Tab.1.center" timestamp="1589518974968">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1586681057049" />
-    <state width="1398" height="250" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1586535378432" />
+    <state width="1398" height="332" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589518974968" />
+    <state width="1398" height="332" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
+    <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1587015895800" />
     <state width="1398" height="194" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
     <state width="1398" height="272" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1586605111073" />
-    <state width="1398" height="272" key="GridCell.Tab.1.left" timestamp="1586681057048">
+    <state width="1398" height="332" key="GridCell.Tab.1.left" timestamp="1589518974967">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1586681057048" />
-    <state width="1398" height="250" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1586535378432" />
+    <state width="1398" height="332" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589518974967" />
+    <state width="1398" height="332" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
+    <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1587015895798" />
     <state width="1398" height="194" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
     <state width="1398" height="272" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1586605111071" />
-    <state width="1398" height="272" key="GridCell.Tab.1.right" timestamp="1586681057050">
+    <state width="1398" height="332" key="GridCell.Tab.1.right" timestamp="1589518974969">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="272" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1586681057050" />
-    <state width="1398" height="250" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1586535378433" />
+    <state width="1398" height="332" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589518974969" />
+    <state width="1398" height="332" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1588569707799" />
+    <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1587015895803" />
     <state width="1398" height="194" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
     <state width="1398" height="272" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1586605111076" />
-    <state x="308" y="201" key="IDE.errors.dialog" timestamp="1586618688461">
+    <state x="308" y="201" key="IDE.errors.dialog" timestamp="1586974513600">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="308" y="201" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1586618688461" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1586690894110">
+    <state x="308" y="201" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1586974513600" />
+    <state x="517" y="375" key="ReplaceDuplicatesPrompt" timestamp="1587830830570">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586690894110" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1586604949269">
+    <state x="517" y="375" key="ReplaceDuplicatesPrompt/0.0.1440.900@0.0.1440.900" timestamp="1587830830570" />
+    <state x="296" y="63" key="SettingsEditor" timestamp="1589781120520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1586604949269" />
+    <state x="296" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589781120520" />
+    <state x="296" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1587583176994" />
+    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1588015408776">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1588015408776" />
     <state x="450" y="205" width="540" height="479" key="StructurePopup/0.23.1440.821@0.23.1440.821" timestamp="1585683605087" />
-    <state x="458" y="211" key="extract.method.dialog" timestamp="1586681270247">
+    <state x="287" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588079993638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="211" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1586681270247" />
-    <state x="383" y="189" width="729" height="522" key="find.popup" timestamp="1586690407796">
+    <state x="287" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1588079993638" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1587998007382">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="383" y="189" width="729" height="522" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586690407796" />
+    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1587998007382" />
+    <state x="458" y="211" key="extract.method.dialog" timestamp="1589436413985">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="211" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1589436413985" />
+    <state x="383" y="189" width="974" height="522" key="find.popup" timestamp="1588521688377">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="383" y="189" width="974" height="522" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588521688377" />
     <state x="383" y="194" width="673" height="472" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1584889566363" />
     <state x="383" y="195" width="673" height="477" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1585640345833" />
-    <state x="427" y="91" key="refactoring.ChangeSignatureDialog" timestamp="1585738523514">
-      <screen x="0" y="23" width="1440" height="816" />
-    </state>
-    <state x="427" y="76" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1585420060482" />
-    <state x="427" y="91" key="refactoring.ChangeSignatureDialog/0.23.1440.816@0.23.1440.816" timestamp="1585738523514" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586616008903">
+    <state x="427" y="76" key="refactoring.ChangeSignatureDialog" timestamp="1589436666140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586616008903" />
+    <state x="427" y="76" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1589436666140" />
+    <state x="427" y="91" key="refactoring.ChangeSignatureDialog/0.23.1440.816@0.23.1440.816" timestamp="1585738523514" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588533201771">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588533201771" />
     <state x="385" y="202" width="670" height="617" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1585683591964" />
   </component>
   <component name="XDebuggerManager">
@@ -366,6 +494,59 @@
           <url>file://$PROJECT_DIR$/src/geeks/pattern/matching/ZAlgo.java</url>
           <line>22</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LargeMaze.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/graph/shortest/distance/Dijkstra.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/graph/shortest/distance/FloydWarshall.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/tree/DllToBst.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/C1349.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/codechef/C1349.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/geeks/graph/shortest/distance/BellmanFord.java</url>
+          <line>21</line>
+          <properties class="geeks.graph.shortest.distance.BellmanFord" method="process">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

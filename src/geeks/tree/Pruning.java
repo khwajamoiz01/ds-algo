@@ -14,7 +14,7 @@ import java.util.Deque;
 //https://www.geeksforgeeks.org/remove-all-nodes-which-lie-on-a-path-having-sum-less-than-k/
 public class Pruning {
 
-    boolean process(Node node, int sum, int k) {
+    boolean process(BTNode node, int sum, int k) {
         if (node == null)
             return false;
         sum += node.data;
@@ -27,15 +27,15 @@ public class Pruning {
         return left || right;
     }
 
-    void print(Node root) {
+    void print(BTNode root) {
         if (root == null)
             return;
-        Deque<Node> queue = new ArrayDeque<>();
+        Deque<BTNode> queue = new ArrayDeque<>();
         queue.addLast(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             while (size-- > 0) {
-                Node node = queue.removeFirst();
+                BTNode node = queue.removeFirst();
                 System.out.print(node + " ");
                 if (node.left != null)
                     queue.addLast(node.left);
@@ -48,21 +48,21 @@ public class Pruning {
 
     public static void main(String[] args) {
         int k = 20;
-        Node root = new Node(1);
-        root.left = new Node(2);
-        root.right = new Node(3);
-        root.left.left = new Node(4);
-        root.left.right = new Node(5);
-        root.right.left = new Node(6);
-        root.right.right = new Node(7);
-        root.left.left.left = new Node(8);
-        root.left.left.right = new Node(9);
-        root.left.right.left = new Node(12);
-        root.right.right.left = new Node(10);
-        root.right.right.left.right = new Node(11);
-        root.left.left.right.left = new Node(13);
-        root.left.left.right.right = new Node(14);
-        root.left.left.right.right.left = new Node(15);
+        BTNode root = new BTNode(1);
+        root.left = new BTNode(2);
+        root.right = new BTNode(3);
+        root.left.left = new BTNode(4);
+        root.left.right = new BTNode(5);
+        root.right.left = new BTNode(6);
+        root.right.right = new BTNode(7);
+        root.left.left.left = new BTNode(8);
+        root.left.left.right = new BTNode(9);
+        root.left.right.left = new BTNode(12);
+        root.right.right.left = new BTNode(10);
+        root.right.right.left.right = new BTNode(11);
+        root.left.left.right.left = new BTNode(13);
+        root.left.left.right.right = new BTNode(14);
+        root.left.left.right.right.left = new BTNode(15);
 
 
         System.out.println("Tree before truncation\n");

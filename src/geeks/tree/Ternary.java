@@ -14,10 +14,10 @@ import java.util.Scanner;
  */
 public class Ternary {
 
-    public static Node convertExp(String str, int i) {
+    public static BTNode convertExp(String str, int i) {
         if (str == null || i >= str.length())
             return null;
-        Node node = new Node(str.charAt(i));
+        BTNode node = new BTNode(str.charAt(i));
         if (i + 1 < str.length() && str.charAt(i + 1) == '?') {
             node.left = convertExp(str, i + 2);
         }
@@ -32,21 +32,21 @@ public class Ternary {
             int t = sc.nextInt();
             while (t-- > 0) {
                 String s = sc.next();
-                Node node = convertExp(s, 0);
+                BTNode node = convertExp(s, 0);
                 print(node);
             }
         }
     }
 
-    private static void print(Node root) {
+    private static void print(BTNode root) {
         if (root == null)
             return;
-        Deque<Node> queue = new ArrayDeque<>();
+        Deque<BTNode> queue = new ArrayDeque<>();
         queue.add(root);
         while (!queue.isEmpty()) {
             int n = queue.size();
             while (n-- > 0) {
-                Node node = queue.poll();
+                BTNode node = queue.poll();
                 System.out.print(node + " ");
                 if (node.left != null)
                     queue.offer(node.left);

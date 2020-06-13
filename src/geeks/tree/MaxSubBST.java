@@ -27,13 +27,13 @@ public class MaxSubBST {
 
     static int largestBstCount = 0;
 
-    static int largestBst(Node root) {
+    static int largestBst(BTNode root) {
         largestBstCount = 0;
         largestBstUtil(root);
         return largestBstCount;
     }
 
-    static Result largestBstUtil(Node root) {
+    static Result largestBstUtil(BTNode root) {
         if (root == null) {
             return new Result(true, 0, null, null);
         }
@@ -49,7 +49,7 @@ public class MaxSubBST {
         return new Result(isBst, count, min, max);
     }
 
-    private static boolean isBst(Node root, Result l, Result r) {
+    private static boolean isBst(BTNode root, Result l, Result r) {
         boolean isBst = l.isBst && r.isBst;
         isBst = (l.max != null) ? isBst && (root.data > l.max) : isBst;
         isBst = (r.min != null) ? isBst && (root.data < r.min) : isBst;

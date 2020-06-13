@@ -12,7 +12,7 @@ package geeks.tree;
 // https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
 public class MaxPathSum {
 
-    public static int maxPathSum(Node root) {
+    public static int maxPathSum(BTNode root) {
         if (root == null)
             return 0;
         ms = Integer.MIN_VALUE;
@@ -22,7 +22,7 @@ public class MaxPathSum {
 
     static int ms;
 
-    static int maxSum(Node node) {
+    static int maxSum(BTNode node) {
         if (node == null)
             return Integer.MIN_VALUE;
         if (node.left == null && node.right == null)

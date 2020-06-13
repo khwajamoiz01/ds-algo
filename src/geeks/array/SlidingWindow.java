@@ -2,7 +2,7 @@
  * Alipay.com Inc.
  * Copyright (c) 2004-2019 All Rights Reserved.
  */
-package geeks;
+package geeks.array;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

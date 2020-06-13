@@ -15,7 +15,5 @@ public class Node {
 
     Node(int d) {
         data = d;
-        next = null;
-        down = null;
     }
 }

@@ -15,9 +15,9 @@ public class KMP {
     //For the pattern “AAACAAAAAC”,
     //lps[] is [0, 1, 2, 0, 1, 2, 3, 3, 3, 4]
     //For the pattern "AAACAAAA",
-    //lps[] is [0, 1, 2, 0, 1, 2, 3, 0]
+    //lps[] is [0, 1, 2, 0, 1, 2, 3, 3]
     //yuywyuwyujyuywyy IMP
-    static int[] LPS(String pat) {
+    private static int[] buildLPS(String pat) {
         //System.out.println(Arrays.toString("yuywyuwyujyuywyy".toCharArray()));
         int m = pat.length();
         int[] lps = new int[m];
@@ -51,7 +51,7 @@ public class KMP {
     public static void search(String pat, String txt) {
         int m = pat.length();
         int n = txt.length();
-        int[] lps = LPS(pat);
+        int[] lps = buildLPS(pat);
 
         int i = 0, j = 0;
         while (i < n) {
@@ -71,10 +71,12 @@ public class KMP {
             }
         }
     }
+
     //abcabc
     public static void main(String[] args) {
         //System.out.println(Arrays.toString(LPS("yuywyuwyujyuywyy")));
         //String txt = "ABABCABAB";
+        System.out.println(Arrays.toString(buildLPS("AAACAAAA")));
         String txt = "AABAACAADAABAABA";
         String pat = "AABA";
         search(pat, txt);

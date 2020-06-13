@@ -4,7 +4,7 @@
  */
 package geeks.stack;
 
-import geeks.tree.Node;
+import geeks.tree.BTNode;
 
 import java.util.Stack;
 
@@ -15,29 +15,29 @@ import java.util.Stack;
 //https://www.geeksforgeeks.org/iterative-method-check-two-trees-mirror/
 public class TreeMirror {
 
-    boolean areMirror(Node a, Node b) {
+    boolean areMirror(BTNode a, BTNode b) {
         if (a == null && b == null)
             return true;
         if (a == null || b == null)
             return false;
 
-        Stack<Node> st1 = new Stack<>();
-        Stack<Node> st2 = new Stack<>();
+        Stack<BTNode> st1 = new Stack<>();
+        Stack<BTNode> st2 = new Stack<>();
 
-        Node cur1 = a, cur2 = b;
+        BTNode cur1 = a, cur2 = b;
         while (true) {
             while (cur1 != null) {
                 st1.push(cur1);
                 cur1 = cur1.left;
             }
-            Node t1 = st1.pop();
+            BTNode t1 = st1.pop();
             cur1 = t1.right;
 
             while (cur2 != null) {
                 st2.push(cur2);
                 cur2 = cur2.right;
             }
-            Node t2 = st2.pop();
+            BTNode t2 = st2.pop();
             cur2 = t2.left;
 
             if (t1.data != t2.data)

@@ -8,75 +8,64 @@ package geeks.heap;
  * @author khwaja.ali
  * @version $Id: MinHeap.java, v 0.1 2019-12-15 16:06 khwaja.ali Exp 3
  */
-//Todo check java collection for this
-//    https://www.geeksforgeeks.org/binary-heap/
-public class MinHeap<T extends Comparable> implements IMinHeap<T> {
+//https://www.geeksforgeeks.org/binary-heap/
+public class MinHeap implements IMinHeap {
 
-    T heap[];
+    int heap[];
     int size;
     int maxSize;
-    boolean empty;
 
-    MinHeap(T[] ar) {
-        this.maxSize = ar.length;
-        this.size = ar.length;
-        heap = ar;
-        for (int i = (this.size - 2) / 2; i >= 0; i--) {
-            heapify(i);
-        }
-
+    public MinHeap(int maxSize) {
+        this.maxSize = maxSize;
+        this.size = 0;
+        heap = new int[maxSize];
     }
 
     @Override
-    public T getMin() {
+    public int getMin() {
         return heap[0];
     }
 
     @Override
-    public T removeMin() {
-        if (size == 0)
-            return null;
-        T min = heap[0];
+    public int removeMin() {
+        if (size == 0) {
+            return Integer.MAX_VALUE;
+        }
+        if (size == 1) {
+            return heap[--size];
+        }
+        int min = heap[0];
         heap[0] = heap[--size];
-        heapify(0);
+        heapify(heap, size, 0);
         return min;
     }
 
     @Override
-    public void insert(T k) {
+    public void insert(int val) {
         if (size == maxSize)
             return;
-        heap[size++] = k;
+        heap[size++] = val;
         int i = size - 1;
-        while (i > 0 && heap[parent(i)].compareTo(heap[i]) > 0) {
-            swap(i, parent(i));
+        while (i > 0 && heap[parent(i)] > heap[i]) {
+            swap(heap, i, parent(i));
             i = parent(i);
         }
     }
 
     @Override
-    public void decreaseKey(int i, T val) {
+    public void decreaseKey(int i, int val) {
         heap[i] = val;
-        while (i > 0 && heap[parent(i)].compareTo(heap[i]) > 0) {
-            swap(i, parent(i));
+        while (i > 0 && heap[parent(i)] > heap[i]) {
+            swap(heap, i, parent(i));
             i = parent(i);
         }
     }
+
 
     @Override
     public void deleteKey(int i) {
-        //check geeksforgeeks
-    }
-
-//    @Override
-//    public void deleteKey(int i) {
-//        decreaseKey(i, Integer.MIN_VALUE);
-//        removeMin();
-//    }
-
-    public void replaceMin(T val) {
-        heap[0] = val;
-        heapify(0);
+        decreaseKey(i, Integer.MIN_VALUE);
+        removeMin();
     }
 
     @Override
@@ -84,38 +73,43 @@ public class MinHeap<T extends Comparable> implements IMinHeap<T> {
         return size == 0;
     }
 
+    @Override
+    public void replaceMin(int val) {
+        heap[0] = val;
+        heapify(heap, size, 0);
+    }
 
-    private void heapify(int i) {
+    public static void heapify(int[] heap, int size, int i) {
         int l = left(i);
         int r = right(i);
         int min = i;
-        if (l < size && heap[l].compareTo(heap[min]) < 0) {
+        if (l < size && heap[l] < heap[min]) {
             min = l;
         }
-        if (r < size && heap[r].compareTo(heap[min]) < 0) {
+        if (r < size && heap[r] < heap[min]) {
             min = r;
         }
         if (min != i) {
-            swap(i, min);
-            heapify(min);
+            swap(heap, i, min);
+            heapify(heap, size, min);
         }
     }
 
-    private void swap(int i, int j) {
-        T t = heap[j];
+    private static void swap(int[] heap, int i, int j) {
+        int t = heap[j];
         heap[j] = heap[i];
         heap[i] = t;
     }
 
-    private int left(int i) {
+    private static int left(int i) {
         return 2 * i + 1;
     }
 
-    private int right(int i) {
+    private static int right(int i) {
         return 2 * i + 2;
     }
 
-    private int parent(int i) {
+    private static int parent(int i) {
         return (i - 1) / 2;
     }
 }

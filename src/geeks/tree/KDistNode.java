@@ -11,7 +11,7 @@ package geeks.tree;
 //https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
 public class KDistNode {
 
-    static void printkdown(Node node, int k) {
+    static void printkdown(BTNode node, int k) {
         if (node == null)
             return;
         if (k == 0)
@@ -22,7 +22,7 @@ public class KDistNode {
         }
     }
 
-    static int printkdistanceNode(Node root, Node node, int k) {
+    static int printkdistanceNode(BTNode root, BTNode node, int k) {
         if (root == null)
             return -1;
         if (root == node) {

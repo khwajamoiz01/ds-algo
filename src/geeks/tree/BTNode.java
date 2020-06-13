@@ -8,16 +8,16 @@ package geeks.tree;
  * @author khwaja.ali
  * @version $Id: Node.java, v 0.1 2019-12-10 21:14 khwaja.ali Exp 3
  */
-public class Node {
-    public Node left;
-    public Node right;
+public class BTNode {
+    public BTNode left;
+    public BTNode right;
     public int data;
 
-    Node(int data) {
+    public BTNode(int data) {
         this.data = data;
     }
 
-    Node(Node left, Node right) {
+    BTNode(BTNode left, BTNode right) {
         this.left = left;
         this.right = right;
     }

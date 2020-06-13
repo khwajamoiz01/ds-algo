@@ -17,7 +17,7 @@ import java.util.Stack;
 public class Merge {
 
 
-    public List<Integer> merge(Node a, Node b) {
+    public List<Integer> merge(BTNode a, BTNode b) {
         List<Integer> res = new ArrayList<>();
         if (a == null) {
             inorder(b, res);
@@ -26,10 +26,10 @@ public class Merge {
             inorder(a, res);
         } else {
             boolean f1 = true, f2 = true;
-            Stack<Node> st1 = new Stack<>();
-            Node cur1 = a;
-            Stack<Node> st2 = new Stack<>();
-            Node cur2 = b;
+            Stack<BTNode> st1 = new Stack<>();
+            BTNode cur1 = a;
+            Stack<BTNode> st2 = new Stack<>();
+            BTNode cur2 = b;
 
             while (true) {
                 if (f1) {
@@ -91,12 +91,12 @@ public class Merge {
         return res;
     }
 
-    void inorder(Node n, List<Integer> res) {
+    void inorder(BTNode n, List<Integer> res) {
         if (n == null) {
             return;
         }
-        Stack<Node> st = new Stack<>();
-        Node cur = n;
+        Stack<BTNode> st = new Stack<>();
+        BTNode cur = n;
         while (cur != null || !st.isEmpty()) {
             while (cur != null) {
                 st.push(cur);

@@ -12,7 +12,7 @@ package geeks.tree;
 public class LeafToLeaf {
     static int sum = 0;
 
-    public static int maxPathSum(Node root) {
+    public static int maxPathSum(BTNode root) {
         if (root == null)
             return 0;
         sum = 0;
@@ -20,7 +20,7 @@ public class LeafToLeaf {
         return sum;
     }
 
-    static int getSum(Node root) {
+    static int getSum(BTNode root) {
         if (root == null)
             return 0;
         int l = getSum(root.left);

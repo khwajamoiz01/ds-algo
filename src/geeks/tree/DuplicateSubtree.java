@@ -14,7 +14,7 @@ import java.util.Set;
 //https://www.geeksforgeeks.org/check-binary-tree-contains-duplicate-subtrees-size-2/
 public class DuplicateSubtree {
 
-    public static boolean dupSub(Node root) {
+    public static boolean dupSub(BTNode root) {
         dupSub = false;
         dupSubUtil(root, new HashSet<>());
         return dupSub;
@@ -23,7 +23,7 @@ public class DuplicateSubtree {
     static boolean dupSub;
 
     //WRONG see geeks as one traversal can lead to multiple tree structures
-    static String dupSubUtil(Node root, Set<String> subtrees) {
+    static String dupSubUtil(BTNode root, Set<String> subtrees) {
         if (root == null)
             return "";
 

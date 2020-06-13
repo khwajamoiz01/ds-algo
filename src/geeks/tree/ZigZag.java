@@ -4,8 +4,6 @@
  */
 package geeks.tree;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
 import java.util.Stack;
 
 /**
@@ -14,18 +12,18 @@ import java.util.Stack;
  */
 public class ZigZag {
 
-    void traverse(Node root) {
+    void traverse(BTNode root) {
         if (root == null)
             return;
 
-        Stack<Node> odd = new Stack<>();
-        Stack<Node> even = new Stack<>();
+        Stack<BTNode> odd = new Stack<>();
+        Stack<BTNode> even = new Stack<>();
 
         odd.push(root);
 
         while (!odd.isEmpty() || !even.isEmpty()) {
             while (!even.isEmpty()) {
-                Node node = even.pop();
+                BTNode node = even.pop();
                 System.out.println(node);
                 if (node.left != null)
                     odd.push(node.left);
@@ -33,7 +31,7 @@ public class ZigZag {
                     odd.push(node.right);
             }
             while (!odd.isEmpty()) {
-                Node node = odd.pop();
+                BTNode node = odd.pop();
                 System.out.println(node);
                 if (node.right != null)
                     even.push(node.right);

@@ -13,16 +13,16 @@ import java.util.Stack;
 //https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
 public class PairSumBST {
 
-    public static boolean findPair(Node root, int target) {
+    public static boolean findPair(BTNode root, int target) {
 
-        Stack<Node> st1 = new Stack<>();
-        Stack<Node> st2 = new Stack<>();
+        Stack<BTNode> st1 = new Stack<>();
+        Stack<BTNode> st2 = new Stack<>();
 
-        Node cur1 = root;
-        Node cur2 = root;
+        BTNode cur1 = root;
+        BTNode cur2 = root;
 
         boolean f1 = true, f2 = true;
-        Node a = null, b = null;
+        BTNode a = null, b = null;
         while (true) {
             if (f1) {
                 while (cur1 != null) {

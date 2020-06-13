@@ -8,17 +8,19 @@ package geeks.heap;
  * @author khwaja.ali
  * @version $Id: Heap.java, v 0.1 2019-12-15 19:38 khwaja.ali Exp 3
  */
-public interface IMinHeap<T extends Comparable> {
+public interface IMinHeap {
 
-    T getMin();
+    int getMin();
 
-    T removeMin();
+    int removeMin();
 
-    void insert(T k);
+    void insert(int val);
 
-    void decreaseKey(int i, T val);
+    void decreaseKey(int i, int val);
 
     void deleteKey(int i);
 
     boolean isEmpty();
+
+    void replaceMin(int val);
 }

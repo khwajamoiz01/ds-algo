@@ -49,4 +49,7 @@ public class TSP {
         return minCost;
     }
 
+    void test() {
+        Byte b = Byte.MAX_VALUE;
+    }
 }

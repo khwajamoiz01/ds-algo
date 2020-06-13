@@ -45,7 +45,7 @@ public class Flatten {
         // flatten the list
         flatten(L.head);
 
-        L.printList();
+        L.print();
     }
 
     static void flatten(Node root) {

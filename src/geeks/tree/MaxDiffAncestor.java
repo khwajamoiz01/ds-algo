@@ -5,9 +5,6 @@
 package geeks.tree;
 
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * @author khwaja.ali
  * @version $Id: MaxDiffAncestor.java, v 0.1 2019-12-30 22:03 khwaja.ali Exp 3
@@ -20,14 +17,14 @@ public class MaxDiffAncestor {
 
     }
 
-    int maxDiff(Node root) {
+    int maxDiff(BTNode root) {
         min(root);
         return maxDiff;
     }
 
     int maxDiff = Integer.MIN_VALUE;
 
-    int min(Node node) {
+    int min(BTNode node) {
         if (node == null)
             return Integer.MAX_VALUE;
 
