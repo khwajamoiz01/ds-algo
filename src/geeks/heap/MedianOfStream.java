@@ -45,7 +45,6 @@ public class MedianOfStream {
                     median = (leftHeap.peek() + rightHeap.peek()) / 2;
                 }
                 System.out.println(median);
-
             }
         }
     }

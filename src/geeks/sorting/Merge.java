@@ -46,7 +46,6 @@ public class Merge {
             sortUtil(ar, mid + 1, j);
             merge(ar, i, mid, j);
         }
-
     }
 
     public static void sort(int[] ar) {

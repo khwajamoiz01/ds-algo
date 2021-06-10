@@ -12,25 +12,29 @@ package geeks.tree;
 // https://practice.geeksforgeeks.org/problems/maximum-path-sum/1
 public class MaxPathSum {
 
-    public static int maxPathSum(BTNode root) {
+    static class Pointer {
+        int maxSum = Integer.MIN_VALUE;
+    }
+
+    int maxPathSum(BTNode root) {
+        Pointer p = new Pointer();
+        maxPathSumUtil(root, p);
+        return p.maxSum;
+    }
+
+    int maxPathSumUtil(BTNode root, Pointer p) {
         if (root == null)
             return 0;
-        ms = Integer.MIN_VALUE;
-        maxSum(root);
-        return ms;
+        if (root.left == null && root.right == null)
+            return root.data;
+        int l = maxPathSumUtil(root.left, p);
+        int r = maxPathSumUtil(root.right, p);
+        if (root.left == null)
+            return root.data + r;
+        if (root.right == null)
+            return root.data + l;
+        p.maxSum = Math.max(p.maxSum, l + root.data + r);
+        return root.data + Math.max(l, r);
     }
 
-    static int ms;
-
-    static int maxSum(BTNode node) {
-        if (node == null)
-            return Integer.MIN_VALUE;
-        if (node.left == null && node.right == null)
-            return node.data;
-        int l = maxSum(node.left);
-        int r = maxSum(node.right);
-        int psum = (l == Integer.MIN_VALUE || r == Integer.MIN_VALUE) ? Integer.MIN_VALUE : node.data + l + r;
-        ms = Math.max(ms, psum);
-        return node.data + Math.max(l, r);
-    }
 }

@@ -17,6 +17,7 @@ import java.util.Arrays;
  * In place - yes
  * Stable - yes
  */
+//https://www.geeksforgeeks.org/bubble-sort/
 public class Bubble {
     //process is similar to heapify
     public static void sort(int[] ar) {
@@ -25,9 +26,7 @@ public class Bubble {
             boolean swapped = false;
             for (int j = 0; j <= i; j++) {
                 if (ar[j] > ar[j + 1]) {
-                    int t = ar[j];
-                    ar[j] = ar[j + 1];
-                    ar[j + 1] = t;
+                    swap(ar, j, j + 1);
                     swapped = true;
                 }
             }
@@ -35,6 +34,12 @@ public class Bubble {
                 break;
             }
         }
+    }
+
+    private static void swap(int[] ar, int i, int j) {
+        int t = ar[i];
+        ar[i] = ar[j];
+        ar[j] = t;
     }
 
     public static void main(String[] args) {

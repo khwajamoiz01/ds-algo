@@ -37,7 +37,7 @@ public class SubsequencesABC {
                  */
                 for (int i = 0; i < ar.length; i++) {
                     if (ar[i] == 'a') {
-                        a = 2 * a + 1;
+                        a = 1 + 2 * a;
                     } else if (ar[i] == 'b') {
                         ab = a + 2 * ab;
                     } else {

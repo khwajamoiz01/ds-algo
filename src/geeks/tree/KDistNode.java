@@ -11,36 +11,39 @@ package geeks.tree;
 //https://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
 public class KDistNode {
 
-    static void printkdown(BTNode node, int k) {
+    static void printKDown(BTNode node, int k) {
         if (node == null)
             return;
         if (k == 0)
             System.out.print(node.data + " ");
         else {
-            printkdown(node.left, k - 1);
-            printkdown(node.right, k - 1);
+            printKDown(node.left, k - 1);
+            printKDown(node.right, k - 1);
         }
     }
 
-    static int printkdistanceNode(BTNode root, BTNode node, int k) {
+    static int printKDistanceNode(BTNode root, BTNode node, int k) {
         if (root == null)
             return -1;
         if (root == node) {
-            printkdown(node, k);
+            printKDown(node, k);
             return k - 1;
         }
-        int l = printkdistanceNode(root.left, node, k);
-        int r = printkdistanceNode(root.right, node, k);
+        int l = printKDistanceNode(root.left, node, k);
         if (l == 0) {
             System.out.print(root.data + " ");
+            return -1;
         } else if (l > 0) {
-            printkdown(root.right, l - 1);
+            printKDown(root.right, l - 1);
             return l - 1;
         }
+        //returning above prevents iterating right child
+        int r = printKDistanceNode(root.right, node, k);
         if (r == 0) {
             System.out.print(root.data + " ");
+            return -1;
         } else if (r > 0) {
-            printkdown(root.left, r - 1);
+            printKDown(root.left, r - 1);
             return r - 1;
         }
         return -1;

@@ -4,6 +4,7 @@
  */
 package geeks.divide.and.conquer;
 
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -14,7 +15,7 @@ import java.util.Scanner;
 //https://www.geeksforgeeks.org/painters-partition-problem/
 
 /**
- * This solutions gives TLE exceeded where as DP solutions gives out of memory exception
+ * This solutions gives TLE exceeded
  */
 public class AllocateMinPages {
 
@@ -58,10 +59,10 @@ public class AllocateMinPages {
         return index;
     }
 
-    static int minPages(int ar[], int n, int m) {
+    static int minPages(int[] ar, int n, int m) {
         if (n < m)
             return -1;
-        int sum[] = new int[n];
+        int[] sum = new int[n];
         sum[0] = ar[0];
         for (int i = 1; i < n; i++) {
             sum[i] = sum[i - 1] + ar[i];
@@ -93,5 +94,42 @@ public class AllocateMinPages {
                 System.out.println(minPages(ar, n, m));
             }
         }
+    }
+
+    static int[] buildSum(int[] ar) {
+        int[] sum = new int[ar.length];
+        for (int i = 0; i < ar.length; i++) {
+            sum[i] = ar[i];
+            if (i > 0) {
+                sum[i] += sum[i - 1];
+            }
+        }
+        return sum;
+    }
+
+    static int getSum(int[] sum, int s, int e) {
+        if (s == 0)
+            return sum[e];
+        return sum[e] - sum[s - 1];
+    }
+
+    //accepted on practice
+    //https://practice.geeksforgeeks.org/problems/the-painters-partition-problem/0
+    static int minPagesDPApproach(int[] ar, int[] sum, int n, int k, Map<String, Integer> dp) {
+        if (n == 0)
+            return Integer.MIN_VALUE;
+        if (k == 1)
+            return getSum(sum, 0, n - 1);
+        String key = n + "_" + k;
+        if (!dp.containsKey(key)) {
+            int curSum = 0;
+            int min = Integer.MAX_VALUE;
+            for (int i = n - 1; i >= 0; i--) {
+                curSum += ar[i];
+                min = Math.min(min, Math.max(curSum, minPagesDPApproach(ar, sum, i, k - 1, dp)));
+            }
+            dp.put(key, min);
+        }
+        return dp.get(key);
     }
 }

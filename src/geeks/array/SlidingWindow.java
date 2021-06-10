@@ -4,9 +4,7 @@
  */
 package geeks.array;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * @author khwaja.ali
@@ -18,39 +16,84 @@ public class SlidingWindow {
 
         try (Scanner sc = new Scanner(System.in)) {
             int t = sc.nextInt();
-
             while (t-- > 0) {
                 int n = sc.nextInt();
                 int k = sc.nextInt();
                 int ar[] = new int[n];
-                for (int i = 0; i < n; i++)
+                for (int i = 0; i < n; i++) {
                     ar[i] = sc.nextInt();
-
-                Deque<Integer> q = new ArrayDeque<>();
-                int i;
-                for (i = 0; i < n && i < k; i++) {
-                    while (!q.isEmpty() && ar[q.getLast()] <= ar[i])
-                        q.removeLast();
-
-                    q.addLast(i);
                 }
-
-                //0 1 2 3 4 5 6
-                for (; i < n; i++) {
-                    System.out.print(q.getFirst());
-
-                    while (!q.isEmpty() && q.getFirst() <= i - k)
-                        q.removeFirst();
-
-                    while (!q.isEmpty() && ar[q.getLast()] <= ar[i])
-                        q.removeLast();
-
-                    q.addLast(i);
-                }
-
-                System.out.println(q.getFirst());
+                dequeApproach(n, k, ar);
             }
         }
-
     }
+
+    //accepted on practice
+    private static ArrayList<Integer> dequeApproach(int n, int k, int[] ar) {
+        ArrayList<Integer> res = new ArrayList<>();
+        Deque<Integer> dq = new ArrayDeque<>();
+        int i;
+        //10 9 2 1 8 3
+        for (i = 0; i < n && i < k; i++) {
+            while (!dq.isEmpty() && ar[dq.getLast()] <= ar[i])
+                dq.removeLast();
+            dq.addLast(i);
+        }
+        for (; i < n; i++) {
+            res.add(ar[dq.getFirst()]);
+            while (!dq.isEmpty() && dq.getFirst() <= i - k)
+                dq.removeFirst();
+            while (!dq.isEmpty() && ar[dq.getLast()] <= ar[i])
+                dq.removeLast();
+            dq.addLast(i);
+        }
+        res.add(ar[dq.getFirst()]);
+        return res;
+    }
+
+    //TLE on practice
+    private static void treeMapApproach(int n, int k, int[] ar) {
+        TreeMap<Integer, Integer> map = new TreeMap<>(Collections.reverseOrder());
+        int i = 0;
+        for (; i < k; i++) {
+            map.put(ar[i], map.getOrDefault(ar[i], 0) + 1);
+        }
+        for (; i < n; i++) {
+            System.out.print(map.firstEntry().getKey() + " ");
+            Integer firstFreq = map.remove(ar[i - k]);
+            if (firstFreq - 1 > 0) {
+                map.put(ar[i - k], firstFreq - 1);
+            }
+            map.put(ar[i], map.getOrDefault(ar[i], 0) + 1);
+        }
+        System.out.println(map.firstEntry().getKey());
+    }
+
+    private static void maxHeapApproach(int[] ar, int n, int k) {
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        maxHeap.remove(1);
+        Queue<Integer> q = new ArrayDeque<>();
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

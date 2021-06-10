@@ -29,6 +29,5 @@ public class LeafToLeaf {
         sum = Math.max(sum, psum);
         return root.data + Math.max(l, r);
     }
-    void test(){
-    }
+
 }

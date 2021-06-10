@@ -13,7 +13,9 @@ import java.util.TreeSet;
  * @author khwaja.ali
  * @version $Id: Boggle.java, v 0.1 2020-04-11 6:58 pm khwaja.ali Exp 3
  */
+//verify trie sol with geeks
 //https://www.geeksforgeeks.org/boggle-set-2-using-trie/
+//https://www.geeksforgeeks.org/boggle-find-possible-words-board-characters/
 public class Boggle {
     public static void main(String[] args) {
 
@@ -37,6 +39,10 @@ public class Boggle {
 
     static int[][] directions = {{-1, +1}, {-1, 0}, {-1, +1}, {0, +1}, {+1, +1}, {+1, 0}, {+1, -1}, {0, -1}};
 
+    private static boolean isSafe(int n, int m, int u, int v) {
+        return u >= 0 && u < n && v >= 0 && v < m;
+    }
+
     static void searchTrie(int n, int m, char[][] boggle, Set<String> words, boolean[][] vis, Set<String> res) {
         Trie trie = new Trie();
         for (String word : words) {
@@ -50,15 +56,8 @@ public class Boggle {
         }
     }
 
-    private static void searchDFS(Set<String> words, int n, int m, char[][] boggle, Set<String> res, boolean[][] vis) {
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                searchDFSUtil(i, j, n, m, boggle, words, "", vis, res);
-            }
-        }
-    }
-
-    private static void searchTrieUtil(TrieNode node, int i, int j, int n, int m, char[][] boggle, String word, boolean[][] vis, Set<String> res) {
+    private static void searchTrieUtil(TrieNode node, int i, int j, int n, int m, char[][] boggle, String word,
+                                       boolean[][] vis, Set<String> res) {
         if (node == null) {
             return;
         }
@@ -70,12 +69,21 @@ public class Boggle {
         for (int[] dir : directions) {
             int u = i + dir[0];
             int v = j + dir[1];
-            if (u >= 0 && u < n && v >= 0 && v < m && !vis[u][v]) {
+            if (isSafe(n, m, u, v) && !vis[u][v]) {
                 searchTrieUtil(node.children[boggle[u][v]], u, v, n, m, boggle, word, vis, res);
             }
         }
         vis[i][j] = false;
     }
+
+    private static void searchDFS(Set<String> words, int n, int m, char[][] boggle, Set<String> res, boolean[][] vis) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                searchDFSUtil(i, j, n, m, boggle, words, "", vis, res);
+            }
+        }
+    }
+
 
     static void searchDFSUtil(int i, int j, int n, int m, char[][] ar,
                               Set<String> words, String word, boolean[][] vis, Set<String> res) {

@@ -10,6 +10,7 @@ import java.util.Scanner;
  * @author khwaja.ali
  * @version $Id: SubarrayWithGivenSum.java, v 0.1 2019-12-22 16:18 khwaja.ali Exp 3
  */
+//https://www.geeksforgeeks.org/find-subarray-with-given-sum/
 //https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0
 public class SubarrayWithGivenSum {
     public static void main(String[] args) {

@@ -9,9 +9,9 @@ package geeks.linkedlist;
  * @version $Id: Node.java, v 0.1 2019-12-10 23:43 khwaja.ali Exp 3
  */
 public class Node {
-    int data;
-    Node next;
-    Node down;
+    public int data;
+    public Node next;
+    public Node down;
 
     Node(int d) {
         data = d;

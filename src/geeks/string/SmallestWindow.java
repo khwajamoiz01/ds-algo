@@ -4,6 +4,8 @@
  */
 package geeks.string;
 
+import java.util.Scanner;
+
 /**
  * @author khwaja.ali
  * @version $Id: SmallestWindow.java, v 0.1 2020-03-30 10:56 pm khwaja.ali Exp 3
@@ -11,41 +13,47 @@ package geeks.string;
 //https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
 public class SmallestWindow {
 
-
-    public static String smallestWindow(String s, String t) {
-        char[] str = s.toCharArray();
-        char[] pat = t.toCharArray();
-        if (str.length < pat.length)
-            return "-1";
-        int[] pfreq = new int[26];
-        for (int i = 0; i < pat.length; i++) {
-            pfreq[pat[i] - 'a']++;
-        }
-        //abcdbe db
-        //timetopractice toc
-        int[] window = new int[26];
-        int count = 0, len = 0, minLen = Integer.MAX_VALUE, minLenIndex = -1;
-        for (int i = 0; i < str.length; i++) {
-            len++;
-            int j = str[i] - 'a';
-            window[j]++;
-            if (pfreq[j] > 0 && window[j] <= pfreq[j]) {
-                count++;
-                while (count == pat.length) {
-                    if (len < minLen) {
-                        minLen = len;
-                        minLenIndex = i - len + 1;
-                    }
-                    len--;
-                    int pj = str[i - len] - 'a';
-                    window[pj]--;
-                    if (pfreq[pj] > 0 && window[pj] < pfreq[pj]) {
-                        count--;
-                    }
+    public static void main(String[] args) {
+        try (Scanner sc = new Scanner(System.in)) {
+            int tc = sc.nextInt();
+            while (tc-- > 0) {
+                char[] s = sc.next().toCharArray();
+                char[] t = sc.next().toCharArray();
+                if (s.length < t.length) {
+                    System.out.println(-1);
+                    continue;
                 }
+                int count = 0;
+                int[] sf = new int[26];
+                int[] tf = new int[26];
+                for (int i = 0; i < t.length; i++) {
+                    tf[t[i] - 'a']++;
+                }
+                int sw = Integer.MAX_VALUE;
+                int swj = -1;
+                int i = 0, j = 0;
+                while (i < s.length) {
+                    int index = s[i] - 'a';
+                    sf[index]++;
+                    if (tf[index] > 0 && sf[index] <= tf[index]) {
+                        count++;
+                    }
+                    while (j <= i && count == t.length) {
+                        if (i - j + 1 < sw) {
+                            sw = i - j + 1;
+                            swj = j;
+                        }
+                        int jIndex = s[j] - 'a';
+                        if (tf[jIndex] > 0 && sf[jIndex] <= tf[jIndex]) {
+                            count--;
+                        }
+                        sf[jIndex]--;
+                        j++;
+                    }
+                    i++;
+                }
+                System.out.println(sw == Integer.MAX_VALUE ? -1 : new String(s, swj, sw));
             }
         }
-        return minLenIndex == -1 ? "-1" : s.substring(minLenIndex, minLenIndex + minLen);
     }
-
 }

@@ -33,11 +33,11 @@ public class SubarrayWithGivenSumNegative {
                 int count = 0;
                 for (int i = 0; i < n; i++) {
                     sum += ar[i];
-                    //count should be incremented first, otherwise output will be invalid whenver k = 0, refer case 1
+                    //count should be incremented first, otherwise output will be invalid whenever k = 0, refer case 1
                     if (sumFreq.containsKey(sum - k)) {
                         count += sumFreq.get(sum - k);
                     }
-                    int value = sumFreq.containsKey(sum) ? sumFreq.get(sum) + 1 : 1;
+                    int value = sumFreq.getOrDefault(sum, 0) + 1;
                     sumFreq.put(sum, value);
 
                 }

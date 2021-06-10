@@ -14,68 +14,75 @@ import java.util.Scanner;
  */
 //https://www.geeksforgeeks.org/distance-nearest-cell-1-binary-matrix/
 /*
-min not required as in solution of geeks
-unable to submit with scanner change to br
+Time limit exceeded on practice, compare with practice and geeks solution
  */
 public class Nearest {
 
+    static class Index {
+        int i, j;
+
+        Index(int i, int j) {
+            this.i = i;
+            this.j = j;
+        }
+    }
+
+    static int[][] directions = {{-1, 0}, {0, +1}, {+1, 0}, {0, -1}};
+
+    static boolean isSafe(int i, int j, int r, int c) {
+        return i >= 0 && i < r && j >= 0 && j < c;
+    }
 
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int t = sc.nextInt();
-            StringBuilder sb = new StringBuilder();
             while (t-- > 0) {
                 int r = sc.nextInt();
                 int c = sc.nextInt();
-
-                int[][] mat = new int[r][c];
+                int[][] ar = new int[r][c];
+                for (int i = 0; i < r; i++) {
+                    for (int j = 0; j < c; j++) {
+                        ar[i][j] = sc.nextInt();
+                    }
+                }
+                Queue<Index> q = new ArrayDeque<>();
                 boolean[][] vis = new boolean[r][c];
-                int[][] dist = new int[r][c];
-                Queue<Vertex> q = new ArrayDeque<>();
+
+                int[][] res = new int[r][c];
                 for (int i = 0; i < r; i++) {
                     for (int j = 0; j < c; j++) {
-                        mat[i][j] = sc.nextInt();
-                        if (mat[i][j] == 1) {
+                        res[i][j] = Integer.MAX_VALUE;
+                        if (ar[i][j] == 1) {
                             vis[i][j] = true;
-                            q.offer(new Vertex(i, j));
+                            q.offer(new Index(i, j));
+                            res[i][j] = 0;
                         }
                     }
                 }
+                int ht = 0;
                 while (!q.isEmpty()) {
-                    Vertex vt = q.poll();
-                    for (int i = 0; i < edges.length; i++) {
-                        int u = vt.i + edges[i][0];
-                        int v = vt.j + edges[i][1];
-                        if (isSafe(r, c, u, v) && !vis[u][v]) {
-                            vis[u][v] = true;
-                            q.offer(new Vertex(u, v));
-                            dist[u][v] = dist[vt.i][vt.j] + 1;
+                    int size = q.size();
+                    while (size-- > 0) {
+                        Index index = q.poll();
+                        res[index.i][index.j] = ht;
+                        for (int[] dir : directions) {
+                            int u = index.i + dir[0];
+                            int v = index.j + dir[1];
+                            if (isSafe(u, v, r, c) && !vis[u][v]) {
+                                vis[u][v] = true;
+                                q.offer(new Index(u, v));
+                            }
                         }
                     }
+                    ht++;
                 }
                 for (int i = 0; i < r; i++) {
                     for (int j = 0; j < c; j++) {
-                        sb.append(dist[i][j] + " ");
+                        System.out.print(res[i][j] + " ");
                     }
                 }
-                sb.append("\n");
+                System.out.println();
             }
-            System.out.println(sb);
-        }
-    }
-
-    static int[][] edges = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-
-    static boolean isSafe(int r, int c, int i, int j) {
-        return i >= 0 && i < r && j >= 0 && j < c;
-    }
-
-    static class Vertex {
-        int i, j;
-
-        Vertex(int i, int j) {
-            this.i = i;
-            this.j = j;
         }
     }
 }

@@ -2,117 +2,226 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34995f14-a74f-41ce-a252-a3497f4690ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codechef/C1349.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/InputHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/avl/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/avl/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/btree/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/btree/BTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/fenwick/FenwickTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/redblack/RedBlackTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/segment/SegmentTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/advance/data/structures/suffix/SuffixArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/GraphM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/IGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/IPrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/KruskalMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/PrimMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/PrimMSTOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/DAGShortestPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/graph/shortest/distance/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/heap/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/linkedlist/DLLNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/linkedlist/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Counting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Radix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/sorting/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/stack/Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/DllToBst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BSTFromPreorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BTFromInAndLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geeks/tree/construction/BTFromPreAndPostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LargeMaze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/misc/FindTheExtraChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/misc/TopK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/Interitance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/ArrayDividedIntoPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/DoubleAndZeroShift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/LongestSubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/MaxDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/MinMovesRequiredToTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/MinSwapToGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/MinimizeHeightDiff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/NextPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/PatternBoundary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/RowWithMaxOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/SmallestPositiveMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/SmallestSubarrayWithSumGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/SortedArraySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/SquareSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/SubarrayWithZeroSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/array/TicToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/backtracking/MColoring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/backtracking/WordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/CountInversions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/ModularExponentiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/PeakArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/KnightProbability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/LPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/LargestRectangleSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/LargestSumContiguousArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/LongestBitonicSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MatrixChainMultiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MaxSumNodesNotAdj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MinCoins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MinIncDecOpArSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MinInsertionPallindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/MobileNumericKeypad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/NoOfStrWithoutConsOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/PallPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/PerfectSumProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/SpecialKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/StrictlyIncreasingSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/WaterInGlass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/dp/WildcardPatternMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/DAGLongestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/HamiltonianPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/graph/TimeToRotOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/greedy/MinPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/heap/KthSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/heap/MergeKSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/heap/NoAdjacent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/linkedlist/Rearrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/maths/MissingAndRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/maths/SwapAllOddAndEvenBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/maths/TwoMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/stack/InfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/stack/LongestBalancedParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/stack/RedundantBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/stream/FirstNonRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/string/NearestMultipleOfTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/AllPossibleBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/BinaryTreeCompleteness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/Burn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/CheckForBalancedTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/CountBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/FixTwoNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/InorderSuccessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/InorderSuccessorPredecessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/KSumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/LeavesBTToDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/LeavesToDLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/LinkedListToCompleteTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/tree/MirrorNAryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geeks/trie/PhoneDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IT1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IT3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IT4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/IT5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/CustomThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/DelayQueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/FailFastIteratorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/FailSafeIteratorsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/ForkJoinPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/ParallelStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/concurrency/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/concurrency/ExecutorInterfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/streams/MapAndFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javapractice/streams/Reduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/RottenOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/SAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/TripletQuestion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/WalmartQ1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/misc/WalmartQ2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/SlidingWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/StockBuySell$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/StockBuySell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/IMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/IMinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/META-INF/Practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/array/MinJumps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/array/MinJumps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubarrayWithGivenSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubarrayWithGivenSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubarrayWithGivenSumNegative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubarrayWithGivenSumNegative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubsequencesABC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/array/SubsequencesABC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/array/TwoNonRepeating.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/dp/DistinctTransformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/dp/DistinctTransformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/dp/Interleave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/dp/Interleave.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/dp/WordBreak$MyOb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/dp/WordBreak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection$EndComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection$EndComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/greedy/ActivitySelection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/MinHeap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/heap/SmallestRange.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Flatten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Flatten.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/LinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/linkedlist/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/stack/TreeMirror.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/stack/TreeMirror.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/BTeeToCDll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/BTeeToCDll.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/maths/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/maths/Power.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/string/Decode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/string/Decode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/string/SmallestWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/string/SmallestWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/KDistNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/KDistNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/LeafToLeaf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/LeafToLeaf.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxDiffAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxDiffAncestor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/MaxPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Merge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Nearest$Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Nearest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Nearest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/NumberOfTurns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/NumberOfTurns.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/PairSumBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/PairSumBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Pruning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Pruning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Ternary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/Ternary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Practice/geeks/tree/ZigZag.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Practice/geeks/tree/ZigZag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/StockBuySell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/dp/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/dp/TSP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/heap/IMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/IMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graphs/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Practice/graphs/HamiltonianPath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/Duplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/Duplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/MinJumps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/MinJumps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/StockBuySell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/StockBuySell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/SubarrayWithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SubarrayWithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/SubarrayWithGivenSumNegative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SubarrayWithGivenSumNegative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/SubsequencesABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/array/SubsequencesABC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/array/TwoNonRepeating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/maths/TwoNonRepeating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/dp/DistinctTransformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/dp/DistinctTransformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/dp/Interleave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/dp/Interleave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/dp/WordBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/graph/PrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/graph/PrimMST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/greedy/ActivitySelection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/greedy/ActivitySelection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/heap/MedianOfStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/MedianOfStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/heap/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/MinHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/heap/SmallestRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/heap/SmallestRange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/Flatten.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/Flatten.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/linkedlist/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/pattern/matching/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/pattern/matching/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/stack/TreeMirror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/stack/TreeMirror.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/BTeeToCDll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BTeeToCDll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/DuplicateSubtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/DuplicateSubtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/maths/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/maths/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/sorting/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/sorting/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/sorting/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/sorting/Heap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/sorting/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/sorting/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/sorting/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/sorting/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/sorting/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/stack/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/stack/Parentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/string/Decode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/string/Decode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/string/SmallestWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/string/SmallestWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/BTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/DllToBst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/DllToBst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/KDistNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/KDistNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/LeafToLeaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/LeafToLeaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxDiffAncestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxDiffAncestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/MaxSubBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/MaxSubBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Merge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/BTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Nearest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Nearest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/NumberOfTurns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/NumberOfTurns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geeks/tree/PairSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/PairSumBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Pruning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Pruning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/Ternary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/Ternary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geeks/tree/ZigZag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/tree/ZigZag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geeks/trie/Boggle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geeks/trie/Boggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/HamiltonianPath.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/concurrent/Semaphore.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/brazil-pkg-cache/packages/PayStationServiceJavaClient/PayStationServiceJavaClient-1.0.319373.0/RHEL5_64/DEV.STD.PTHREAD/build/lib/PayStationServiceJavaClient-1.0.jar!/com/amazon/paystation/request/charge/FindChargesRequest.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ForkJoinPool.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/Arrays.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/Collections.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/LinkedList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/List.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/ListIterator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/HashMap.java" root0="SKIP_INSPECTION" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/amazon-corretto-8.jdk/Contents/Home/src.zip!/java/util/LinkedHashSet.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1S8lRC9J0b7ScbemWFbGbV67fYx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -125,67 +234,32 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.23375" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="geeks.graph.shortest.distance" />
-      <recent name="geeks.array" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="interview.loadbalancer" />
       <recent name="geeks.sorting" />
       <recent name="geeks.graph" />
       <recent name="geeks.advance.data.structures.suffix" />
       <recent name="geeks.advance.data.structures.avl" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="geeks.graph.shortest.distance" />
+      <recent name="geeks.array" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.C1349">
-    <configuration name="BSTFromPreorder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.tree.construction.BSTFromPreorder" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="geeks.tree.construction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BTFromInAndLevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.tree.construction.BTFromInAndLevelOrder" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="geeks.tree.construction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C1349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codechef.C1349" />
-      <module name="Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codechef.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DllToBst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.tree.DllToBst" />
+  <component name="RunManager" selected="Application.DelayQueueDemo">
+    <configuration name="CountBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeks.tree.CountBST" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
@@ -197,12 +271,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="geeks.pattern.matching.KMP" />
+    <configuration name="DelayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.DelayQueueDemo" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="geeks.pattern.matching.*" />
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FailSafeIteratorsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.FailSafeIteratorsDemo" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForkJoinPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javapractice.ForkJoinPoolDemo" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javapractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IT4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interview.IT4" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,22 +324,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BSTFromPreorder" />
-      <item itemvalue="Application.BTFromInAndLevelOrder" />
-      <item itemvalue="Application.C1349" />
-      <item itemvalue="Application.DllToBst" />
-      <item itemvalue="Application.KMP" />
+      <item itemvalue="Application.FailSafeIteratorsDemo" />
+      <item itemvalue="Application.CountBST" />
+      <item itemvalue="Application.ForkJoinPoolDemo" />
+      <item itemvalue="Application.IT4" />
+      <item itemvalue="Application.DelayQueueDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C1349" />
-        <item itemvalue="Application.KMP" />
-        <item itemvalue="Application.BTFromInAndLevelOrder" />
-        <item itemvalue="Application.BSTFromPreorder" />
-        <item itemvalue="Application.DllToBst" />
+        <item itemvalue="Application.DelayQueueDemo" />
+        <item itemvalue="Application.IT4" />
+        <item itemvalue="Application.ForkJoinPoolDemo" />
+        <item itemvalue="Application.CountBST" />
+        <item itemvalue="Application.FailSafeIteratorsDemo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -237,160 +351,122 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570953092918</updated>
+      <workItem from="1592647037856" duration="6108000" />
+      <workItem from="1592760365640" duration="134000" />
+      <workItem from="1592760579985" duration="533000" />
+      <workItem from="1592808223556" duration="598000" />
+      <workItem from="1593338385384" duration="4986000" />
+      <workItem from="1594140980652" duration="1843000" />
+      <workItem from="1594274984064" duration="317000" />
+      <workItem from="1594320265752" duration="8309000" />
+      <workItem from="1594564662501" duration="11770000" />
+      <workItem from="1594739304590" duration="3815000" />
+      <workItem from="1594905487015" duration="5516000" />
+      <workItem from="1595057657647" duration="132000" />
+      <workItem from="1595069624445" duration="4120000" />
+      <workItem from="1595173391625" duration="11825000" />
+      <workItem from="1595424085810" duration="2809000" />
+      <workItem from="1595567954515" duration="374000" />
+      <workItem from="1595614759275" duration="7614000" />
+      <workItem from="1595750220560" duration="3100000" />
+      <workItem from="1595764051969" duration="8061000" />
+      <workItem from="1595827487151" duration="91000" />
+      <workItem from="1596352925088" duration="7317000" />
+      <workItem from="1596468637513" duration="1071000" />
+      <workItem from="1596738971179" duration="584000" />
+      <workItem from="1596740335097" duration="72000" />
+      <workItem from="1597481696925" duration="9584000" />
+      <workItem from="1600759022735" duration="626000" />
+      <workItem from="1602069248222" duration="667000" />
+      <workItem from="1602081614570" duration="444000" />
+      <workItem from="1602238633547" duration="109000" />
+      <workItem from="1602417567512" duration="1009000" />
+      <workItem from="1602670168946" duration="302000" />
+      <workItem from="1603196562862" duration="280000" />
+      <workItem from="1603285326510" duration="50000" />
+      <workItem from="1603285464779" duration="259000" />
+      <workItem from="1605623870677" duration="1251000" />
+      <workItem from="1607430656255" duration="317000" />
+      <workItem from="1607755195987" duration="538000" />
+      <workItem from="1607839403545" duration="574000" />
+      <workItem from="1608199107330" duration="543000" />
+      <workItem from="1608200336691" duration="3197000" />
+      <workItem from="1608488966850" duration="819000" />
+      <workItem from="1608705549264" duration="1751000" />
+      <workItem from="1608800709227" duration="270000" />
+      <workItem from="1608874773115" duration="255000" />
+      <workItem from="1608900729873" duration="9834000" />
+      <workItem from="1610131705284" duration="471000" />
+      <workItem from="1610353399694" duration="7980000" />
+      <workItem from="1610734022476" duration="1753000" />
+      <workItem from="1611036751157" duration="8138000" />
+      <workItem from="1611217758358" duration="272000" />
+      <workItem from="1611684585870" duration="1021000" />
+      <workItem from="1611775146365" duration="77000" />
+      <workItem from="1611775329121" duration="69000" />
+      <workItem from="1611851412429" duration="2801000" />
+      <workItem from="1612076569554" duration="839000" />
+      <workItem from="1612178272252" duration="594000" />
+      <workItem from="1612550005760" duration="583000" />
+      <workItem from="1612622237837" duration="595000" />
+      <workItem from="1612623578672" duration="591000" />
+      <workItem from="1612624351584" duration="331000" />
+      <workItem from="1612624748358" duration="591000" />
+      <workItem from="1612626031681" duration="592000" />
+      <workItem from="1612627493066" duration="192000" />
+      <workItem from="1612627877848" duration="560000" />
+      <workItem from="1612628808156" duration="590000" />
+      <workItem from="1612629713095" duration="337000" />
+      <workItem from="1612630344395" duration="628000" />
+      <workItem from="1612631024424" duration="587000" />
+      <workItem from="1612772670163" duration="215000" />
+      <workItem from="1613216423993" duration="7492000" />
+      <workItem from="1613491933783" duration="593000" />
+      <workItem from="1613633247124" duration="350000" />
+      <workItem from="1613677351716" duration="174000" />
+      <workItem from="1614078702177" duration="9892000" />
+      <workItem from="1614430249184" duration="5190000" />
+      <workItem from="1614666251173" duration="218000" />
+      <workItem from="1614696381927" duration="1295000" />
+      <workItem from="1614765044949" duration="3474000" />
+      <workItem from="1614940708019" duration="11643000" />
+      <workItem from="1615124211689" duration="7889000" />
+      <workItem from="1615388739424" duration="2208000" />
+      <workItem from="1615628135066" duration="12000" />
+      <workItem from="1615628190001" duration="9501000" />
+      <workItem from="1615723696515" duration="833000" />
+      <workItem from="1615785763643" duration="1516000" />
+      <workItem from="1615829772427" duration="5291000" />
+      <workItem from="1615918806156" duration="3151000" />
+      <workItem from="1616046551549" duration="488000" />
+      <workItem from="1616050408245" duration="4144000" />
+      <workItem from="1616397013485" duration="4474000" />
+      <workItem from="1616571439764" duration="1751000" />
+      <workItem from="1616666866487" duration="3561000" />
+      <workItem from="1616785124716" duration="2074000" />
+      <workItem from="1616840234784" duration="405000" />
+      <workItem from="1617198344355" duration="6356000" />
+      <workItem from="1617458312590" duration="13256000" />
+      <workItem from="1617550927232" duration="200000" />
+      <workItem from="1617552008546" duration="469000" />
+      <workItem from="1617555793394" duration="70000" />
+      <workItem from="1617555979086" duration="545000" />
+      <workItem from="1617561426215" duration="2371000" />
+      <workItem from="1617688150100" duration="428000" />
+      <workItem from="1617719380923" duration="3630000" />
+      <workItem from="1617780545986" duration="806000" />
+      <workItem from="1617795811429" duration="334000" />
+      <workItem from="1617942744554" duration="186000" />
+      <workItem from="1617983382468" duration="205000" />
+      <workItem from="1617983714693" duration="192000" />
+      <workItem from="1618215734051" duration="6947000" />
+      <workItem from="1618380246430" duration="320000" />
+      <workItem from="1618383456889" duration="162000" />
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589397893249">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1589397893249" />
-    <state x="444" y="293" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1589780387512">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="444" y="293" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1440.900@0.0.1440.900" timestamp="1589780387512" />
-    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1589436236454">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="533" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1589436236454" />
-    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588326918493">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="408" y="186" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1588326918493" />
-    <state x="419" y="203" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1588359189397">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="419" y="203" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1440.900@0.0.1440.900" timestamp="1588359189397" />
-    <state x="0" y="0" width="784" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588512503123">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="0" y="0" width="784" height="900" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1588512503123" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588259894619">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588259894619" />
-    <state x="483" y="163" key="#xdebugger.evaluate" timestamp="1585909498347">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="483" y="163" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1585909498347" />
-    <state width="412" height="466" key="DebuggerActiveHint" timestamp="1586599613915">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="412" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1586599613915" />
-    <state width="1398" height="332" key="GridCell.Tab.0.bottom" timestamp="1589518974966">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589518974966" />
-    <state width="1398" height="332" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
-    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587015895796" />
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585738591890" />
-    <state width="1398" height="317" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1587021804502" />
-    <state width="1398" height="190" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1584039865066" />
-    <state width="1398" height="332" key="GridCell.Tab.0.center" timestamp="1589518974964">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589518974964" />
-    <state width="1398" height="332" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588569707794" />
-    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1587015895791" />
-    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1585738591867" />
-    <state width="1398" height="317" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1587021804496" />
-    <state width="1398" height="190" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1584039865059" />
-    <state width="1398" height="332" key="GridCell.Tab.0.left" timestamp="1589518974963">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589518974963" />
-    <state width="1398" height="332" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588569707793" />
-    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1587015895789" />
-    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1585738591866" />
-    <state width="1398" height="317" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1587021804494" />
-    <state width="1398" height="190" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1584039865057" />
-    <state width="1398" height="332" key="GridCell.Tab.0.right" timestamp="1589518974965">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589518974965" />
-    <state width="1398" height="332" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588569707796" />
-    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1587015895793" />
-    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1585738591884" />
-    <state width="1398" height="317" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1587021804497" />
-    <state width="1398" height="190" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1584039865064" />
-    <state width="1398" height="332" key="GridCell.Tab.1.bottom" timestamp="1589518974970">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589518974970" />
-    <state width="1398" height="332" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588569707803" />
-    <state width="1398" height="317" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1587015895805" />
-    <state width="1398" height="194" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
-    <state width="1398" height="272" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1586605111078" />
-    <state width="1398" height="332" key="GridCell.Tab.1.center" timestamp="1589518974968">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1589518974968" />
-    <state width="1398" height="332" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
-    <state width="1398" height="317" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1587015895800" />
-    <state width="1398" height="194" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
-    <state width="1398" height="272" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1586605111073" />
-    <state width="1398" height="332" key="GridCell.Tab.1.left" timestamp="1589518974967">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1589518974967" />
-    <state width="1398" height="332" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1588569707797" />
-    <state width="1398" height="317" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1587015895798" />
-    <state width="1398" height="194" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1585735488460" />
-    <state width="1398" height="272" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1586605111071" />
-    <state width="1398" height="332" key="GridCell.Tab.1.right" timestamp="1589518974969">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="332" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1589518974969" />
-    <state width="1398" height="332" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1588569707799" />
-    <state width="1398" height="317" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1587015895803" />
-    <state width="1398" height="194" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1585735488461" />
-    <state width="1398" height="272" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1586605111076" />
-    <state x="308" y="201" key="IDE.errors.dialog" timestamp="1586974513600">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="308" y="201" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1586974513600" />
-    <state x="517" y="375" key="ReplaceDuplicatesPrompt" timestamp="1587830830570">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="517" y="375" key="ReplaceDuplicatesPrompt/0.0.1440.900@0.0.1440.900" timestamp="1587830830570" />
-    <state x="296" y="63" key="SettingsEditor" timestamp="1589781120520">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="296" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1589781120520" />
-    <state x="296" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1587583176994" />
-    <state x="450" y="200" width="540" height="524" key="StructurePopup" timestamp="1588015408776">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="450" y="200" width="540" height="524" key="StructurePopup/0.0.1440.900@0.0.1440.900" timestamp="1588015408776" />
-    <state x="450" y="205" width="540" height="479" key="StructurePopup/0.23.1440.821@0.23.1440.821" timestamp="1585683605087" />
-    <state x="287" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588079993638">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="287" y="63" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1588079993638" />
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1587998007382">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.0.1440.900@0.0.1440.900" timestamp="1587998007382" />
-    <state x="458" y="211" key="extract.method.dialog" timestamp="1589436413985">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="458" y="211" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1589436413985" />
-    <state x="383" y="189" width="974" height="522" key="find.popup" timestamp="1588521688377">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="383" y="189" width="974" height="522" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1588521688377" />
-    <state x="383" y="194" width="673" height="472" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1584889566363" />
-    <state x="383" y="195" width="673" height="477" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1585640345833" />
-    <state x="427" y="76" key="refactoring.ChangeSignatureDialog" timestamp="1589436666140">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="427" y="76" key="refactoring.ChangeSignatureDialog/0.0.1440.900@0.0.1440.900" timestamp="1589436666140" />
-    <state x="427" y="91" key="refactoring.ChangeSignatureDialog/0.23.1440.816@0.23.1440.816" timestamp="1585738523514" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588533201771">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588533201771" />
-    <state x="385" y="202" width="670" height="617" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1585683591964" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,12 +477,12 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/geeks/array/TwoNonRepeating.java</url>
+          <url>file://$PROJECT_DIR$/src/geeks/maths/TwoNonRepeating.java</url>
           <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/geeks/array/TwoNonRepeating.java</url>
+          <url>file://$PROJECT_DIR$/src/geeks/maths/TwoNonRepeating.java</url>
           <line>23</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -446,11 +522,6 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graphs/HamiltonianPath.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/array/Spiral.java</url>
           <line>26</line>
           <option name="timeStamp" value="16" />
@@ -459,21 +530,6 @@
           <url>file://$PROJECT_DIR$/src/geeks/array/Spiral.java</url>
           <line>29</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
-          <line>66</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/geeks/dp/WordBreak.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/dp/CuttingBinTree.java</url>
@@ -497,17 +553,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
-          <line>71</line>
+          <line>72</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/divide/and/conquer/AllocateMinPages.java</url>
-          <line>53</line>
+          <line>54</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -527,7 +583,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/geeks/tree/DllToBst.java</url>
-          <line>25</line>
+          <line>24</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -540,6 +596,41 @@
           <line>29</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/dp/LPS.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/tree/LeavesBTToDLL.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/misc/WalmartQ2.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/misc/Temp.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/misc/Temp.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/misc/Temp.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/geeks/array/SmallestPositiveMissingNumber.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/geeks/graph/shortest/distance/BellmanFord.java</url>
           <line>21</line>
@@ -548,7 +639,16 @@
           </properties>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="65" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ds_algo$LargestRectangleSubset.ic" NAME="LargestRectangleSubset Coverage Results" MODIFIED="1615117640302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>geeks.dp.*</FILTER>
+    </SUITE>
   </component>
 </project>

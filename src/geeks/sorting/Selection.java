@@ -8,17 +8,17 @@ import java.util.Arrays;
 
 
 /**
- * stable version of selection sort
+ * Stable version of selection sort
  * <p>
- * Time complexity - O(n*n)
- * Space complexity - O(1)
- * In place - Yes
- * Stable - Default version is not but below one is stable
+ * Time complexity - O(n*n) <br>
+ * Space complexity - O(1) <br>
+ * In place - Yes <br>
+ * Stable - Default version is not stable but below version is.
+ * </p>
  *
  * @author khwaja.ali
  * @version $Id: sorting.java, v 0.1 2020-04-30 7:54 pm khwaja.ali Exp 3
  */
-
 public class Selection {
 
     public static void sort(int[] ar) {

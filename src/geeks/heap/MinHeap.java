@@ -9,6 +9,7 @@ package geeks.heap;
  * @version $Id: MinHeap.java, v 0.1 2019-12-15 16:06 khwaja.ali Exp 3
  */
 //https://www.geeksforgeeks.org/binary-heap/
+//https://stackoverflow.com/questions/9755721/how-can-building-a-heap-be-on-time-complexity
 public class MinHeap implements IMinHeap {
 
     int heap[];
@@ -28,12 +29,10 @@ public class MinHeap implements IMinHeap {
 
     @Override
     public int removeMin() {
-        if (size == 0) {
+        if (size == 0)
             return Integer.MAX_VALUE;
-        }
-        if (size == 1) {
+        if (size == 1)
             return heap[--size];
-        }
         int min = heap[0];
         heap[0] = heap[--size];
         heapify(heap, size, 0);
@@ -46,21 +45,21 @@ public class MinHeap implements IMinHeap {
             return;
         heap[size++] = val;
         int i = size - 1;
-        while (i > 0 && heap[parent(i)] > heap[i]) {
-            swap(heap, i, parent(i));
-            i = parent(i);
-        }
+        percolateUp(i);
     }
 
     @Override
     public void decreaseKey(int i, int val) {
         heap[i] = val;
+        percolateUp(i);
+    }
+
+    private void percolateUp(int i) {
         while (i > 0 && heap[parent(i)] > heap[i]) {
             swap(heap, i, parent(i));
             i = parent(i);
         }
     }
-
 
     @Override
     public void deleteKey(int i) {

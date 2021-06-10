@@ -22,6 +22,27 @@ public class BTNode {
         this.right = right;
     }
 
+    public static BTNode build(int data) {
+        return new BTNode(data);
+    }
+
+    public BTNode withLeft(BTNode left) {
+        this.left = left;
+        return this;
+    }
+    public BTNode withRight(BTNode right) {
+        this.right = right;
+        return this;
+    }
+
+    public void setLeft(BTNode left) {
+        this.left = left;
+    }
+
+    public void setRight(BTNode right) {
+        this.right = right;
+    }
+
     @Override
     public String toString() {
         return String.valueOf(data);

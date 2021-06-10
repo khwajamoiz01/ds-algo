@@ -4,18 +4,13 @@
  */
 package geeks.array;
 
+import java.util.Scanner;
+
 /**
  * @author khwaja.ali
  * @version $Id: MinJumps.java, v 0.1 2020-01-27 22:55 khwaja.ali Exp 3
  */
 //https://www.geeksforgeeks.org/minimum-number-jumps-reach-endset-2on-solution/
-
-/*package whatever //do not write package name here */
-
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
 public class MinJumps {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

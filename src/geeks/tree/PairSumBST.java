@@ -11,6 +11,7 @@ import java.util.Stack;
  * @version $Id: PairSumBST.java, v 0.1 2020-01-11 23:49 khwaja.ali Exp 3
  */
 //https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/
+//https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1
 public class PairSumBST {
 
     public static boolean findPair(BTNode root, int target) {

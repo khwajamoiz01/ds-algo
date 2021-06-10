@@ -4,7 +4,6 @@
  */
 package geeks.tree;
 
-import geeks.advance.data.structures.btree.BTree;
 import geeks.linkedlist.DLLNode;
 import geeks.linkedlist.DoublyLinkedList;
 
@@ -25,8 +24,8 @@ public class DllToBst {
     public BinaryTree convert(DoublyLinkedList dll) {
         int len = length(dll.root);
         Pointer p = new Pointer(dll.root);
-        BTNode btNode = convertUtil(p, 0, len - 1);
-        return new BinaryTree(btNode);
+        BTNode node = convertUtil(p, 0, len - 1);
+        return new BinaryTree(node);
     }
 
     // 1 2 3 <- 4 -> 5 6 7

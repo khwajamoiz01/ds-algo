@@ -10,14 +10,12 @@ import java.util.Stack;
 /**
  * @author khwaja.ali
  * @version $Id: Paranthesis.java, v 0.1 2020-04-12 8:21 pm khwaja.ali Exp 3
+ * duplicate solution, refer {@link LongestBalancedParenthesis}
  */
 //https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
 public class Parentheses {
 
     public static void main(String[] args) {
-        char ch = '9';
-        int ich = ch;
-        System.out.println(ich);
         try (Scanner sc = new Scanner(System.in)) {
             int t = sc.nextInt();
             while (t-- > 0) {

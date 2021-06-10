@@ -46,5 +46,4 @@ public class Duplicates {
             ar[pos] += n;
         }
     }
-
 }

@@ -4,8 +4,7 @@
  */
 package geeks.tree;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.*;
 
 /**
  * @author khwaja.ali
@@ -63,6 +62,68 @@ public class BinaryTree {
         System.out.println();
     }
 
+    //https://www.geeksforgeeks.org/iterative-preorder-traversal/
+    //also see space optimized sol
+    public static void preorderIterative(BTNode root) {
+        if (root == null)
+            return;
+        Stack<BTNode> st = new Stack<>();
+        st.push(root);
+        while (!st.isEmpty()) {
+            BTNode cur = st.pop();
+            System.out.print(cur.data + " ");
+            if (cur.right != null) {
+                st.push(cur.right);
+            }
+            if (cur.left != null) {
+                st.push(cur.left);
+            }
+        }
+        System.out.println();
+    }
+
+    //https://practice.geeksforgeeks.org/problems/preorder-traversal-iterative/1
+    //practice accepted, similar to geeks space optimized iterative preorder
+    public static List<Integer> preorderIterativeSpaceOptimized(BTNode root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null)
+            return res;
+
+        Stack<BTNode> st = new Stack<>();
+        BTNode cur = root;
+        while (true) {
+            res.add(cur.data);
+            if (cur.right != null)
+                st.push(cur.right);
+            if (cur.left != null)
+                cur = cur.left;
+            else if (!st.isEmpty())
+                cur = st.pop();
+            else break;
+        }
+        return res;
+    }
+
+    public static void postorderIterative(BTNode root) {
+        if (root == null)
+            return;
+        Stack<BTNode> st = new Stack<>();
+        Stack<BTNode> res = new Stack<>();
+        st.push(root);
+        while (!st.isEmpty()) {
+            BTNode cur = st.pop();
+            res.push(cur);
+            if (cur.left != null)
+                st.push(cur.left);
+            if (cur.right != null)
+                st.push(cur.right);
+        }
+        while (!res.isEmpty()) {
+            System.out.print(res.pop() + " ");
+        }
+        System.out.println();
+    }
+
     public static void levelOrder(BTNode root) {
         if (root == null)
             return;
@@ -71,13 +132,13 @@ public class BinaryTree {
         while (!queue.isEmpty()) {
             int h = queue.size();
             while (h-- > 0) {
-                BTNode btNode = queue.poll();
-                System.out.print(btNode.data + " ");
-                if (btNode.left != null) {
-                    queue.offer(btNode.left);
+                BTNode node = queue.poll();
+                System.out.print(node.data + " ");
+                if (node.left != null) {
+                    queue.offer(node.left);
                 }
-                if (btNode.right != null) {
-                    queue.offer(btNode.right);
+                if (node.right != null) {
+                    queue.offer(node.right);
                 }
             }
             System.out.println();

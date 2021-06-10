@@ -30,7 +30,7 @@ public class Quick {
         ar[b] = t;
     }
 
-    //a random number is chosen between i and j, both inclusive
+    //a random number is chosen between `low` and `high`, both inclusive
     private static int partitionRandom(int[] ar, int low, int high) {
         int p = low + (int) (Math.random() * (high - low + 1));
         swap(ar, p, high);

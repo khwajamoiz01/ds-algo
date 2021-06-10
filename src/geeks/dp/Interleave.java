@@ -9,6 +9,7 @@ package geeks.dp;
  * @version $Id: Interleave.java, v 0.1 2020-03-29 9:26 pm khwaja.ali Exp 3
  */
 //https://www.geeksforgeeks.org/find-if-a-string-is-interleaved-of-two-other-strings-dp-33/
+//practice doesn't have enough TCs
 public class Interleave {
     //Try to do in o(n2) space
     public boolean isInterLeave(String a, String b, String c) {
@@ -25,7 +26,7 @@ public class Interleave {
     }
 
     boolean isInterLeave(char[] a, int i, char[] b, int j, char[] c, int k, Integer[][][] dp) {
-        if (i == 0 && j == 0 && k >= 0)//depends whether additional chars is allowed or not
+        if (i == 0 && j == 0 && k == 0)//k >= 0, if whether chars is allowed or not
             return true;
         if (k == 0)
             return false;
@@ -39,10 +40,5 @@ public class Interleave {
         //return isInterLeave(a, i, b, j, c, k - 1, dp);// if extra chars allowed in c
         //XXY XXZ XXZXXXY
         return false;
-    }
-
-    void test() {
-        String s = "";
-        "".toCharArray();
     }
 }

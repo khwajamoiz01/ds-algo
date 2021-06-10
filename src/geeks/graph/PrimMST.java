@@ -32,7 +32,8 @@ public class PrimMST implements IPrimMST {
             mstSet.add(u);
             //O(v)
             for (int v = 0; v < graphM.V; v++) {
-                if (graphM.adjMat[u][v] != 0 && !mstSet.contains(v) && graphM.adjMat[u][v] < primVertices[v].weight) {
+                if (graphM.adjMat[u][v] != 0 && !mstSet.contains(v)
+                        && graphM.adjMat[u][v] < primVertices[v].weight) {
                     primVertices[v].weight = graphM.adjMat[u][v];
                     primVertices[v].parent = u;
                 }
@@ -65,6 +66,7 @@ public class PrimMST implements IPrimMST {
         PrimMST mst = new PrimMST();
         Edge[] result = mst.process(new GraphM(graph.length, graph));
         System.out.println(Arrays.toString(result));
-        //[[src: 0, dest: 1, weight: 2], [src: 1, dest: 2, weight: 3], [src: 1, dest: 4, weight: 5], [src: 0, dest: 3, weight: 6]]
+        //[[src: 0, dest: 1, weight: 2], [src: 1, dest: 2, weight: 3], [src: 1, dest: 4, weight: 5], [src: 0, dest:
+        // 3, weight: 6]]
     }
 }

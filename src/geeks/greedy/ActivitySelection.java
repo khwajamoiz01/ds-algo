@@ -17,7 +17,6 @@ public class ActivitySelection {
 
     static class Pair {
         int s, e;
-
         Pair(int s, int e) {
             this.s = s;
             this.e = e;

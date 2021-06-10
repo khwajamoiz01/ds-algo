@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @version $Id: StockBuySell.java, v 0.1 2019-12-08 17:41 khwaja.ali Exp 3
  */
 //https://www.geeksforgeeks.org/stock-buy-sell/
+//https://practice.geeksforgeeks.org/problems/stock-buy-and-sell2615/1/
 //{100, 180, 260, 310, 40, 535, 695}
 public class StockBuySell {
 
@@ -20,13 +21,11 @@ public class StockBuySell {
 
         try (Scanner sc = new Scanner(System.in)) {
             int t = sc.nextInt();
-
             while (t-- > 0) {
                 int n = sc.nextInt();
                 int ar[] = new int[n];
                 for (int i = 0; i < n; i++)
                     ar[i] = sc.nextInt();
-
                 process(ar, n);
             }
         }

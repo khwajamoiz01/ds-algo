@@ -32,8 +32,20 @@ public class SmallestRange {
         }
     }
 
+    static class Node {
+        int val;
+        int i;
+        int j;
+
+        Node(int val, int i, int j) {
+            this.val = val;
+            this.i = i;
+            this.j = j;
+        }
+    }
+
     static void findSmallestRange(int[][] ar, int n, int k) {
-        PriorityQueue<Node> q = new PriorityQueue<Node>(new Comparator<Node>() {
+        PriorityQueue<Node> q = new PriorityQueue<>(new Comparator<Node>() {
             public int compare(Node a, Node b) {
                 return a.val != b.val ? a.val - b.val : a.i - b.i;
             }
@@ -59,18 +71,40 @@ public class SmallestRange {
         System.out.println(s + " " + (s + minRange));
     }
 
+    static class Pointer implements Comparable<Pointer> {
+        int data, i, j;
 
-    static class Node {
-        int val;
-        int i;
-        int j;
-
-        Node(int val, int i, int j) {
-            this.val = val;
+        Pointer(int data, int i, int j) {
+            this.data = data;
             this.i = i;
             this.j = j;
         }
+
+        public int compareTo(Pointer p) {
+            return this.data - p.data;
+        }
     }
 
-
+    //practice accepted, compare with above
+    static int[] findSmallestRange2(int[][] ar, int n, int k) {
+        PriorityQueue<Pointer> pq = new PriorityQueue<>();
+        int max = Integer.MIN_VALUE;
+        for (int i = 0; i < k; i++) {
+            pq.offer(new Pointer(ar[i][0], i, 1));
+            max = Math.max(max, ar[i][0]);
+        }
+        int minDiff = max - pq.peek().data;
+        int[] res = {pq.peek().data, max};
+        while (pq.peek().j < n) {
+            Pointer p = pq.poll();
+            pq.offer(new Pointer(ar[p.i][p.j], p.i, p.j + 1));
+            max = Math.max(max, ar[p.i][p.j]);
+            if (max - pq.peek().data < minDiff) {
+                minDiff = max - pq.peek().data;
+                res[0] = pq.peek().data;
+                res[1] = max;
+            }
+        }
+        return res;
+    }
 }

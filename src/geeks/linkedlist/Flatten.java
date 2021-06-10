@@ -4,11 +4,39 @@
  */
 package geeks.linkedlist;
 
+import java.util.ArrayList;
+
 /**
  * @author khwaja.ali
  * @version $Id: Flatten.java, v 0.1 2019-12-10 23:42 khwaja.ali Exp 3
  */
+//some difference with java geeks solution, but looks fine
+//https://www.geeksforgeeks.org/flattening-a-linked-list/
+//https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1 [ACCEPTED]
 public class Flatten {
+
+    Node flatten(Node root) {
+        if (root == null || root.next == null)
+            return root;
+        Node rootNext = flatten(root.next);
+        root.next = null;
+        return merge(root, rootNext);
+    }
+
+    Node merge(Node a, Node b) {
+        if (a == null)
+            return b;
+        if (b == null)
+            return a;
+        if (a.data < b.data) {
+            a.down = merge(a.down, b);
+            return a;
+        } else {
+            b.down = merge(a, b.down);
+            return b;
+        }
+    }
+
     public static void main(String[] args) {
         LinkedList L = new LinkedList();
 
@@ -43,13 +71,12 @@ public class Flatten {
         L.head.next.next.next = L.push(L.head.next.next.next, 20);
 
         // flatten the list
-        flatten(L.head);
+        flattenIterative(L.head);
 
         L.print();
     }
 
-    static void flatten(Node root) {
-
+    static void flattenIterative(Node root) {
         if (root == null || root.next == null)
             return;
         Node nl = new Node(0);
@@ -73,6 +100,6 @@ public class Flatten {
             c.down = b;
 
         nl.down.next = tmp;
-        flatten(nl.down);
+        flattenIterative(nl.down);
     }
 }

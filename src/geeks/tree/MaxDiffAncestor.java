@@ -12,11 +12,6 @@ package geeks.tree;
 //https://www.geeksforgeeks.org/maximum-difference-between-node-and-its-ancestor-in-binary-tree/
 public class MaxDiffAncestor {
 
-
-    public static void main(String[] args) {
-
-    }
-
     int maxDiff(BTNode root) {
         min(root);
         return maxDiff;
@@ -34,10 +29,6 @@ public class MaxDiffAncestor {
         int min = Math.min(min(node.left), min(node.right));
         maxDiff = Math.max(maxDiff, node.data - min);
         return Math.min(node.data, min);
-    }
-
-    void test() {
-
     }
 
 }
